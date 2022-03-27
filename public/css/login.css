@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #EFEFEF;
+	background-size:cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.loginbox{
+	width: 320px;
+	height: 420px;
+	background: #FEFEFE;
+	color: #fff;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: 80px auto;
+	position: absolute;
+	box-sizing: border-box;
+	padding: 80px 30px;
+}
+.fa, .fas, .far, .fal {
+	color: #ec4918;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: -130px auto 30px;
+    display: block;
+}
+.ibn-toufile-logo {
+    height: 80px;
+    width: auto;
+    margin-top: -80px;
+    float: right;
+    margin-right: -26px;
+}
+.loginbox label {
+	color: #313131;
+	font-weight: 600;
+}
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"],
+.loginbox input[type="Password"] {
+    border: 1px solid #ababab;
+    background: #fff;
+    outline: none;
+    color: #444444;
+    font-size: 16px;
+    padding: 8px;
+    margin-top: 16px;
+}
+.loginbox input[type="submit"] {
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #ec4918;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+.loginbox input[type="submit"]:hover {
+ 	cursor: pointer;
+ 	background: #ec4918
+ 	color:#000;
+ }
+.loginbox a {
+ 	text-decoration: none;
+ 	font-size: 12px;
+ 	line-height: 20px;
+ 	color:darkgrey;
+}
+.loginbox a {
+	color: #5c5697;
+	float: right;
+}
