@@ -135,10 +135,11 @@ class HomeController extends Controller
         ]);
 
         $client = Client::where('email','=',$request->email)->first();
+        $projects = Project::all();
         if ($client) {
             if ($request->pass === $client->pass) {
                 $request->Session()->put('clientId', $client->id);
-                return view('client', compact('client'));
+                return view('client', compact('client','projects'));
             }else {
                 return back()->with('fail','mot de pass incorrecte');
             }

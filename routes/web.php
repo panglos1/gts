@@ -35,6 +35,7 @@ Route::post('contact-us', [HomeController::class,'savecontact'])->name('contact_
 
 // Espace client :
 Route::get('/espace-client', [HomeController::class,'espace'])->name('espace')->middleware('AlreadyLog');
+Route::get('/check', [HomeController::class,'check'])->name('check');
 Route::post('/check', [HomeController::class,'check'])->name('check');
 Route::get('/logOut', [HomeController::class,'logOut'])->name('logOut');
 
