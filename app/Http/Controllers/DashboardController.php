@@ -185,7 +185,7 @@ class DashboardController extends Controller
                 $urls = array();
                 foreach ($request->file('images') as $image) {
                     $_file = $image->store('public');
-                    $urls[] = "storage/app/{$_file}";
+                    $urls[] = "storage/{$_file}";
                 }
                 return implode(',', $urls);
             };
@@ -834,8 +834,10 @@ class DashboardController extends Controller
 
     public function show_utilisateur ($id) {
         $clients = Client::find($id);
+        $fichier = Fichier::where('client_id',$id)->first();
         return view('show-utilisateur')->with([
-            'clients' => $clients
+            'clients' => $clients,
+            'fichier' => $fichier,
         ]);
     }
 

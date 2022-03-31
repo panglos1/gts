@@ -11,10 +11,10 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- CSS Files -->
-  <link href="{{asset('public/css/bootstrap.min.css')}}" rel="stylesheet" />
-  <link href="{{asset('public/css/now-ui-dashboard.css?v=1.5.0')}}" rel="stylesheet" />
+  <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet" />
+  <link href="{{asset('css/now-ui-dashboard.css?v=1.5.0')}}" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="{{asset('public/demo/demo.css')}}" rel="stylesheet" />
+  <link href="{{asset('demo/demo.css')}}" rel="stylesheet" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
@@ -26,7 +26,7 @@
 		<div class="content">
 			<div class="row">
 				<div class="col-md-12">
-          <img width="300px" src="{{asset('public/images/logoo.jpg')}}" style="margin: auto;display: block;padding-top: 14rem;">
+          <img width="300px" src="{{asset('images/logoo.jpg')}}" style="margin: auto;display: block;padding-top: 14rem;">
 				</div>
 			</div>
 		</div>

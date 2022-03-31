@@ -1,6 +1,6 @@
 <!-- Navbar -->
-<script src="{{asset('public/js/jquery.min.js')}}"></script>
-<script src="{{asset('public/js/jquery-migrate-3.0.1.min.js')}}"></script>
+<script src="{{asset('js/jquery.min.js')}}"></script>
+<script src="{{asset('js/jquery-migrate-3.0.1.min.js')}}"></script>
 
 <nav class="navbar navbar-expand-lg navbar-transparent  bg-primary  navbar-absolute">
   <div class="container-fluid" style="background-color: #fd7e14">

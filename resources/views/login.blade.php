@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{asset('public/css/login.css')}}">
+    <link rel="stylesheet" href="{{asset('css/login.css')}}">
     <script src="https://kit.fontawesome.com/56b4fdaa29.js" crossorigin="anonymous"></script>
     <title>Authentification</title>
 </head>
 <body>
 <div id="page-login">	
 		<div class="loginbox">
-			<img src="{{asset('public/images/profile.jpg')}}" class="avatar">
+			<img src="{{asset('images/profile.jpg')}}" class="avatar">
 			<form action="" method="POST">
 				@if ($errors->any())
 					<div class="alert alert-danger">

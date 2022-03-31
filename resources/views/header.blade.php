@@ -9,21 +9,21 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<link rel="stylesheet" href="{{asset('public/css/animate.css')}}">
+	<link rel="stylesheet" href="{{asset('css/animate.css')}}">
 
-	<link rel="stylesheet" href="{{asset('public/css/owl.carousel.min.css')}}">
-	<link rel="stylesheet" href="{{asset('public/css/owl.theme.default.min.css')}}">
-	<link rel="stylesheet" href="{{asset('public/css/magnific-popup.css')}}">
+	<link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
+	<link rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
+	<link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
 
-	<link rel="stylesheet" href="{{asset('public/css/bootstrap-datepicker.css')}}">
-	<link rel="stylesheet" href="{{asset('public/css/jquery.timepicker.css')}}">
+	<link rel="stylesheet" href="{{asset('css/bootstrap-datepicker.css')}}">
+	<link rel="stylesheet" href="{{asset('css/jquery.timepicker.css')}}">
 
-	<link rel="stylesheet" href="{{asset('public/css/flaticon.css')}}">
-	<link rel="stylesheet" href="{{asset('public/css/style.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/lightbox.min.css')}}">
+	<link rel="stylesheet" href="{{asset('css/flaticon.css')}}">
+	<link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/lightbox.min.css')}}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="{{asset('public/js/jquery.min.js')}}"></script>
-	<script src="{{asset('public/js/jquery-migrate-3.0.1.min.js')}}"></script>
+	<script src="{{asset('js/jquery.min.js')}}"></script>
+	<script src="{{asset('js/jquery-migrate-3.0.1.min.js')}}"></script>
 	<!-- Pannellum library -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pannellum/2.5.6/pannellum.css"
 			integrity="sha512-UoT/Ca6+2kRekuB1IDZgwtDt0ZUfsweWmyNhMqhG4hpnf7sFnhrLrO0zHJr2vFp7eZEvJ3FN58dhVx+YMJMt2A=="
@@ -33,8 +33,8 @@
 			integrity="sha512-EmZuy6vd0ns9wP+3l1hETKq/vNGELFRuLfazPnKKBbDpgZL0sZ7qyao5KgVbGJKOWlAFPNn6G9naB/8WnKN43Q=="
 			crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<!-- End Pannellum library -->
-	<script src="{{asset('public/js/main.js')}}"></script>
-    <script src="{{ asset('public/js/app.js') }}" defer></script>
+	<script src="{{asset('js/main.js')}}"></script>
+    <script src="{{ asset('js/app.js') }}" defer></script>
 
 </head>
 <body>
@@ -68,7 +68,7 @@
 				<div class="d-flex mb-2 mb-md-0 mr-auto">
 					<a class="navbar-brand d-flex align-items-center" href="{{route('home')}}">
 
-						<img height="80px" src="{{asset('public/images/logoo.jpg')}}">
+						<img height="80px" src="{{asset('images/logoo.jpg')}}">
 					</a>
 				</div>
 				<div class="col-md-4 d-flex topper mb-md-0 mb-2 align-items-center">
